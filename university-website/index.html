@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8f8063437e.js" crossorigin="anonymous"></script>
+    <title>University Website Design</title>
+</head>
+
+<body>
+    <!-- header -->
+    <section class="header">
+        <nav>
+            <img src="image/logo.png" alt="logo">
+            <div class="nav-lists" id="navLists">
+                <ul>
+                    <i class="fa-solid fa-xmark" onclick="closeNav()"></i>
+                    <li class="nav-list"><a href="#">HOME</a></li>
+                    <li class="nav-list"><a href="#">ABOUT</a></li>
+                    <li class="nav-list"><a href="#">COURSE</a></li>
+                    <li class="nav-list"><a href="#">BLOG</a></li>
+                    <li class="nav-list"><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="openNav()"></i>
+        </nav>
+        <div class="header-body">
+            <h1>World's Biggest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ex odio minus sunt sint labore, eligendi
+                itaque
+                magni. <br>Quae, doloribus tenetur perferendis dolores dignissimos neque quis culpa? Similique,
+                inventore
+                facere!</p>
+            <div class="btn"><a href="#">Visit Us To Know More</a></div>
+        </div>
+    </section>
+
+    <!-- course -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat expedita aspernatur optio beatae earum
+            vitae officia totam! Voluptatem doloremque adipisci accusantium inventore impedit! Architecto fugiat officia
+            ipsa, placeat quas corporis?</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, architecto aperiam, consectetur
+                    tenetur fugit, voluptatem magni repellendus ad unde delectus eveniet expedita accusantium eligendi
+                    esse minima? Id dicta commodi expedita.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, architecto aperiam, consectetur
+                    tenetur fugit, voluptatem magni repellendus ad unde delectus eveniet expedita accusantium eligendi
+                    esse minima? Id dicta commodi expedita.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, architecto aperiam, consectetur
+                    tenetur fugit, voluptatem magni repellendus ad unde delectus eveniet expedita accusantium eligendi
+                    esse minima? Id dicta commodi expedita.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- campus -->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iusto asperiores accusantium cum reprehenderit
+            hic unde nam, adipisci, quos quo odio sed eos reiciendis eaque iure quod illo fugiat quidem.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="image/london.png" alt="london">
+                <div class="layer">
+                    <h3 class="campus-location">LONDON</h3>
+                </div>
+
+            </div>
+            <div class="campus-col">
+                <img src="image/newyork.png" alt="newyork">
+                <div class="layer">
+                    <h3 class="campus-location">NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="image/washington.png" alt="washington">
+                <div class="layer">
+                    <h3 class="campus-location">WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos aut. Voluptate quidem inventore
+            repellendus ex maxime officia fugiat quasi laborum nisi qui. Consequatur sequi quia culpa quisquam
+            voluptatibus eveniet.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="image/library.png" alt="library">
+                <h4>World Class Library</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium tempora nesciunt corrupti!
+                    Incidunt et placeat quis repellat commodi. Ducimus itaque ut, aspernatur rerum similique beatae
+                    consequatur minima eos sequi dolorum.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/basketball.png" alt="basketball">
+                <h4>Largest Sports Facilities</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium tempora nesciunt corrupti!
+                    Incidunt et placeat quis repellat commodi. Ducimus itaque ut, aspernatur rerum similique beatae
+                    consequatur minima eos sequi dolorum.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/cafeteria.png" alt="cafeteria">
+                <h4>Taste and Healthy Food</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium tempora nesciunt corrupti!
+                    Incidunt et placeat quis repellat commodi. Ducimus itaque ut, aspernatur rerum similique beatae
+                    consequatur minima eos sequi dolorum.</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function openNav() {
+            let navLists = document.getElementById('navLists');
+
+            navLists.style.right = '0';
+        }
+
+        function closeNav() {
+            let navLists = document.getElementById('navLists');
+            navLists.style.right = '-200px';
+        }
+    </script>
+
+</body>
+
+</html>
