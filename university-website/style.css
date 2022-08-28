@@ -100,6 +100,7 @@ p {
     padding: 10px 30px;
     font-size: small;
     transition: 0.5s;
+    color: white;
 }
 
 .btn:hover {
@@ -146,7 +147,7 @@ p {
     }
 
     .header-body h1 {
-        font-size: medium;
+        font-size: 2rem;
     }
 
     nav .fa-bars {
@@ -282,6 +283,7 @@ h3 {
     flex-basis: 31%;
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 5%;
 }
 
 .facilities-col img {
@@ -300,4 +302,82 @@ h3 {
 
 .facilities h4 {
     margin: 5% auto;
+}
+
+/* testimonials */
+
+.testimonial {
+    width: 80%;
+    margin: 20px auto 5%;
+    text-align: center;
+}
+
+.testimonial-col {
+    flex-basis: 45%;
+    display: flex;
+    justify-content: space-between;
+    background-color: RGB(255, 243, 243);
+    padding: 40px 40px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.testimonial-col img {
+    width: 2.5rem;
+    border-radius: 50px;
+    align-self: flex-start;
+    align-items: flex-start;
+}
+
+.testimonial-content {
+    text-align: left;
+    padding: 0 20px;
+}
+
+.testimonial p {
+    color: grey;
+}
+
+.testimonial h1 {
+    font-size: 2rem;
+    margin: 30px auto;
+}
+
+.testimonial .fa-solid,
+.fa-regular {
+    color: #FF5349;
+}
+
+/* contact */
+.contact {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/banner2.jpg);
+    border-radius: 10px;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+    padding: 20px 40px;
+}
+
+.contact-content {
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.contact-content h1 {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+@media(max-width: 700px) {
+    .contact-content h1 {
+        font-size: 1.5rem;
+    }
+
 }
