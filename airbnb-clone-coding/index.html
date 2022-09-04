@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8f8063437e.js" crossorigin="anonymous"></script>
+    <title>Find homes in Australia on Airbnb</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <a class="logo" href="#">
+            <img class="logo-img" src="https://miro.medium.com/max/1838/0*NChTo-XqLOxLabIW" alt="airbnb">
+        </a>
+        <nav>
+            <ul class="nav-list">
+                <li>Become a host</li>
+                <li>Help</li>
+                <li>Sign up</li>
+                <li>Log in</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- first container -->
+    <div class="first-container">
+        <img class="first-container-img" alt="Find places to stay on Airbnb"
+            src="https://a0.muscache.com/im/pictures/7e64c77a-29f3-49d7-9ce1-8e2270f67ef6.jpg?im_w=1680" height="100%"
+            width="100%" sizes="100vw">
+        <section class="find-place">
+            <div class="find-place-header">
+                <h1>Find places to stay on Airbnb</h1>
+                <p class="description">Discover entire homes and private rooms perfect for any trip.</p>
+            </div>
+            <form action="submit" class="first-container-form">
+                <div class="location-form">
+                    <label for="location">
+                        <div class="location-content">
+                            <span class="title">LOCATION</span>
+                            <input type="text" placeholder="Anywhere" id="location" name="location">
+                        </div>
+                    </label>
+                </div>
+                <div class="date-form">
+                    <label for="date">
+                        <div class="date-content">
+                            <div class="check-in title">
+                                <div>CHECK IN</div>
+                                <input type="date" id="check-in" name="check-in" placeholder="Add Date">
+                            </div>
+                            <span class="border-line"></span>
+                            <div class="check-out title">
+                                <div>CHECK OUT</div>
+                                <input type="date" id="check-out" name="check-out" placeholder="Add Date">
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                <div class="people-form">
+                    <label for="adults" class="adults">
+                        <span class="title">ADULTS</span>
+                        <select name="adults" id="adults">
+                            <option value="1">1</option>
+                            <option selected value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                        </select>
+                    </label>
+                    <span class="border-line"></span>
+                    <label for="children" class="children">
+                        <span class="title">CHILDREN</span>
+                        <select name="children" id="children">
+                            <option selected value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="Amenities-form">
+                    <span class="amenities-title title">AMENITIES</span>
+                    <div class="buttons">
+                        <button class="amenity-button" type="button">Pool</button>
+                        <button class="amenity-button" type="button">Air-conditioning</button>
+                        <button class="amenity-button" type="button">Wi-fi</button>
+                    </div>
+                </div>
+                <div class="search-button">
+                    <button class="search" type="button">Search</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <!-- second container -->
+    <div class="second-container">
+        <div class="explore">
+            <div class="explore-content">
+                <h1>Discover Airbnb Categories</h1>
+                <p>Find homes you would never have known to search for.</p>
+                <button class="explore-btn">Explore more</button>
+            </div>
+        </div>
+        <div class="category">
+            <img class="category-img"
+                src="https://a0.muscache.com/im/pictures/f53f687b-7d1a-4151-8bfa-81394e70547d.jpg?im_q=medq&im_w=2560"
+                alt="category-img">
+        </div>
+    </div>
+
+    <div class="third-container">
+        <div class="third-container-top">
+            <h1>What guests are saying about homes in Australia</h1>
+            <p class="grey-text">Over <b>10,500,000 guest reviews</b> with an average of <b>4.8 out of 5 stars</b></p>
+        </div>
+        <div class="reviews">
+            <div class="review review-1">
+                <img src="https://a0.muscache.com/im/pictures/36131038/d0d5c5ec_original.jpg?im_w=480"
+                    alt="review image" class="review-img">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="review-content">“We absolutely loved our stay at the Sunday School. Located in a quiet street
+                    a short walk to restaurants and cafes in North Hobart,
+                    it was even better than the pictures. Judy made us feel very...</p>
+                <div class="reviewer">
+                    <div>
+                        <img src="https://a0.muscache.com/im/users/995437/profile_pic/1333281763/original.jpg?aki_policy=profile_medium"
+                            alt="reviewer image" class="reviewer-img">
+                    </div>
+                    <div class="reviewer-detail">
+                        <p class="reviewer-name"><b>Kim</b></p>
+                        <p class="reviewer-country">Australia</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review review-2">
+                <img src="https://a0.muscache.com/im/pictures/51174868/ae53439d_original.jpg?im_w=480"
+                    alt="review image" class="review-img">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="review-content">"A fantastic apartment with a wonderful host! The apartment was warm and cosy
+                    (despite the 2-degree cold outside), with plenty of space for two, and beautifully decorated
+                    throughout. It's also...</p>
+                <div class="reviewer">
+                    <div>
+                        <img src="https://a0.muscache.com/im/pictures/user/81d16800-bd7b-4b7b-b571-6b7facc96f8c.jpg?aki_policy=profile_medium"
+                            alt="reviewer image" class="reviewer-img">
+                    </div>
+                    <div class="reviewer-detail">
+                        <p class="reviewer-name"><b>John</b></p>
+                        <p class="reviewer-country">Australia</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review review-3">
+                <img src="https://a0.muscache.com/im/pictures/7bbaae81-e601-4584-9723-21a9fa4ccf86.jpg?im_w=480"
+                    alt="review image" class="review-img">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="review-content">"Anne - thank you so much for accommodating us! Your unit was perfect - more
+                    than enough space for us during our weekend away. We really appreciated you making it so easy for
+                    our late...</p>
+                <div class="reviewer">
+                    <div>
+                        <img src="https://a0.muscache.com/im/pictures/user/51b7364f-aefb-437b-adb1-834825f5361e.jpg?aki_policy=profile_medium"
+                            alt="reviewer image" class="reviewer-img">
+                    </div>
+                    <div class="reviewer-detail">
+                        <p class="reviewer-name"><b>Steven</b></p>
+                        <p class="reviewer-country">United States</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fourth-container">
+        <div class="fourth-container-top">
+            <h1>Travel with peace of mind when you book on Airbnb</h1>
+        </div>
+        <div class="fourth-container-bottom">
+            <div class="support-1 support">
+                <i class="fa-solid fa-shield fa-xl"></i>
+                <h2>Protection with AirCover</h2>
+                <p>The most comprehensive protection in travel. Always included, always free.</p>
+            </div>
+            <div class="support-2 support">
+                <i class="fa-solid fa-calendar fa-xl"></i>
+                <h2>Flexible cancellation options</h2>
+                <p>Cancellation options make it easy to re-book if your planss change.</p>
+            </div>
+            <div class="support-3 support">
+                <i class="fa-solid fa-headset fa-xl"></i>
+                <h2>24/7 customer support</h2>
+                <p>Talk to our support team from anywhere in the world, any hour of day.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="fifth-container">
+        <div class="fifth-container-top">
+            <h1>Just booked in Australia</h1>
+        </div>
+        <div class="fifth-container-mid">
+            <div class="place-1 place">
+                <img class="place-img"
+                    src="https://a0.muscache.com/im/pictures/7bdd14ac-6efe-4f95-b46c-267b420d46de.jpg?im_w=480"
+                    alt="rainforest">
+                <div class="place-details">
+                    <p class="grey-text">Cabin in Main Arm</p>
+                    <div class="place-rating">
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="rating">4.97<span class="grey-text">(635)</span></p>
+                    </div>
+                </div>
+                <p>Secluded Magical Rainforest...</p>
+            </div>
+            <div class="place-2 place">
+                <img class="place-img"
+                    src="https://a0.muscache.com/im/pictures/miso/Hosting-45646568/original/6d82b90d-4cab-463e-8987-ee128c519ed9.jpeg?im_w=480"
+                    alt="hut">
+                <div class="place-details">
+                    <p class="grey-text">Hut in Mudgee</p>
+                    <div class="place-rating">
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="rating">5<span class="grey-text">(181)</span></p>
+                    </div>
+                </div>
+                <p>Gawthorne's Hut - BEST UNI...</p>
+            </div>
+            <div class="place-3 place">
+                <img class="place-img"
+                    src="https://a0.muscache.com/im/pictures/80bf4640-15cd-4bca-8077-0d9587691ea8.jpg?im_w=480"
+                    alt="Tiny home">
+                <div class="place-details">
+                    <p class="grey-text">Tiny home in Lewisham</p>
+                    <div class="place-rating">
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="rating">4.84<span class="grey-text">(116)</span></p>
+                    </div>
+                </div>
+                <p>THE POD - GRAND DESIGNS...</p>
+            </div>
+            <div class="place-4 place">
+                <img class="place-img"
+                    src="https://a0.muscache.com/im/pictures/c2da931b-1f28-434c-8f99-d82f816a2ec6.jpg?im_w=480"
+                    alt="Apartment">
+                <div class="place-details">
+                    <p class="grey-text">Apartment in North...</p>
+                    <div class="place-rating">
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="rating">4.95<span class="grey-text">(378)</span></p>
+                    </div>
+                </div>
+                <p>Blu Peter Penthouse</p>
+            </div>
+        </div>
+        <div class="fifth-container-bottom">
+            <button class="show-btn">
+                Show (1000+) <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="sixth-container">
+        <h1>When are you travelling?</h1>
+        <p class="grey-text date-text">Add dates for updated pricing and availability</p>
+        <button class="add-date-btn">Add Dates</button>
+    </div>
+
+    <footer>
+        <p class="copyright grey-text">&copy; 2022 Airbnb, Inc. All rights reserved &#183; Privacy &#183; Terms &#183;
+            Site Map</p>
+        <div class="social">
+            <a href="https://www.facebook.com/airbnb/">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/airbnb">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/airbnb/">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
