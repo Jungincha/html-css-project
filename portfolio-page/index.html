@@ -246,6 +246,7 @@
     <script>
         const hamburger = document.querySelector('.nav .navBar .nav-list .hamburger');
         const mobile_menu = document.querySelector('.nav .navBar .nav-list ul');
+        const menu_item = document.querySelectorAll('.nav .navBar .nav-list ul li a');
         const header = document.querySelector('.nav');
 
         hamburger.addEventListener('click', () => {
@@ -260,7 +261,18 @@
             } else {
                 header.style.backgroundColor = 'transparent'
             }
-        })
+        });
+
+        console.log(menu_item);
+
+        menu_item.forEach((item) => {
+            item.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                mobile_menu.classList.toggle('active');
+            });
+        });
+
+
     </script>
     <!-- End Javascript -->
 
